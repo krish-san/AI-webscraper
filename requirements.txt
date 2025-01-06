@@ -1,0 +1,13 @@
+streamlit
+langchain 
+langchain_ollama
+selenium
+beautifulsoup4
+lxml 
+html5lib
+python-dotenv
+
+#captcha handling proxy integration link(bright data)
+
+
+#https://brightdata.com/cp/zones/proxy_examples?id=hl_8a10678a&type=api&zone=ai_scraper&example=simple
