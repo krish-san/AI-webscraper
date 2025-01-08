@@ -1,5 +1,6 @@
 import streamlit as st
 from scrape import scrape_web,extract_body,clean_body,split_dom_content
+from parse import parse_content
 
 st.title("AI webscraper")
 
@@ -22,3 +23,5 @@ if st.button("scrape"):
                  st.write("parsing the content")
 
                  dom_chunks=split_dom_content(st.session_state.dom_content)
+                 result=parse_content(dom_chunks,parse_des)
+                 st.write(result)
